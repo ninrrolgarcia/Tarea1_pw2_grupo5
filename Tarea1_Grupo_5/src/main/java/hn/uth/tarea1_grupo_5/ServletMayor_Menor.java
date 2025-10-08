@@ -13,10 +13,8 @@ import java.io.PrintWriter;
 
 public class ServletMayor_Menor extends HttpServlet {
     public void init() {
-        // Inicialización, si es necesario
     }
 
-    // Método para generar la estructura HTML de la página de resultados
     private void generarHtmlHeader(PrintWriter out, String titulo) {
         out.println("<!DOCTYPE html>");
         out.println("<html lang=\"es\">");
@@ -60,7 +58,6 @@ public class ServletMayor_Menor extends HttpServlet {
 
             generarHtmlHeader(out, "Resultado del Ejercicio: Mayor y Menor");
 
-            // Generar la tabla con los resultados del POST
             out.println("        <table>");
             out.println("            <tr><th>Datos de Entrada</th><th>N. Mayor</th><th>N. Menor</th></tr>");
             out.println("            <tr>");

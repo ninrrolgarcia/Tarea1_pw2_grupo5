@@ -49,7 +49,6 @@ public class ServletHipotenusa extends HttpServlet {
         out.println("<h1>" + titulo + "</h1>");
         out.println("<div class='formula'>Fórmula Asignada: c = \u221A(a\u00B2 - b\u00B2)</div>");
 
-        // Formulario de entrada
         out.println("<form method='get' action='calcularHipotenusa'>");
         out.println("<input type='hidden' name='operacion' value='calcular'>");
 
@@ -144,7 +143,6 @@ public class ServletHipotenusa extends HttpServlet {
 
         sb.append("<p style='font-style: italic;'>Resultado de la Operación: ").append(nombreOperacion).append("</p>");
 
-        // Tabla de Entrada y Respuesta
         sb.append("<table style='width: 100%;'>")
                 .append("<thead><tr><th>Datos de Entrada</th><th>Resultado (c)</th></tr></thead>")
                 .append("<tbody><tr>")
