@@ -9,7 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6acb8ebc-ce3e-40a0-b183-726bba179d6b" name="Changes" comment="Unificacion del proyecto y arreglos de multiples cosas, proyecto casi terminado" />
+    <list default="true" id="6acb8ebc-ce3e-40a0-b183-726bba179d6b" name="Changes" comment="Unificacion del proyecto y arreglos de multiples cosas, proyecto casi terminado">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/estilo_binario.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/estilo_hipotenusa.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/formulario_binario.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hn/uth/tarea1_grupo_5/ServletBinarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hn/uth/tarea1_grupo_5/ServletBinarios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hn/uth/tarea1_grupo_5/ServletHipotenusa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hn/uth/tarea1_grupo_5/ServletHipotenusa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hn/uth/tarea1_grupo_5/ServletMayor_Menor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hn/uth/tarea1_grupo_5/ServletMayor_Menor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -53,34 +61,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Maven.ServletHipotenusa [install].executor": "Run",
-    "Maven.Tarea1_Grupo_5 [install].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SHELLCHECK.PATH": "C:\\Users\\LENOVO\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.2\\plugins\\Shell Script\\shellcheck.exe",
-    "Tomcat Server.Tomcat 11.0.11.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Projects/Pw_3Tareas/Tarea1_pw2_grupo5/Tarea1_Grupo_5",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Maven.ServletHipotenusa [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Tarea1_Grupo_5 [install].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;C:\\Users\\LENOVO\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.2\\plugins\\Shell Script\\shellcheck.exe&quot;,
+    &quot;Tomcat Server.Tomcat 11.0.11.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects/Pw_3Tareas/Tarea1_pw2_grupo5/Tarea1_Grupo_5&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projects\Pw_3Tareas\Tarea1_pw2_grupo5\ServletHipotenusa\src\main\webapp" />
@@ -100,17 +108,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Tarea1_Grupo_5" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Tarea1_Grupo_5" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
     <configuration name="Tomcat 11.0.11" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.11" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -217,6 +214,7 @@
       <workItem from="1759726113472" duration="5458000" />
       <workItem from="1759803906541" duration="4713000" />
       <workItem from="1759809176984" duration="12565000" />
+      <workItem from="1759887724453" duration="3978000" />
     </task>
     <task id="LOCAL-00001" summary="Cambios y añadiduras de los archivos necesarios de la tarea">
       <option name="closed" value="true" />

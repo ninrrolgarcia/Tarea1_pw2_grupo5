@@ -37,12 +37,12 @@ public class ServletMayor_Menor extends HttpServlet {
         out.println("</div>");
     }
 
-    // Método para generar el footer HTML
+
     private void generarHtmlFooter(PrintWriter out) {
-        out.println("    </div>"); // Cierra .section
+        out.println("    </div>");
         out.println("    <br>");
         out.println("    <a href=\"Menu_Navegacion.html\" class=\"section a\">Volver al Menú</a>");
-        out.println("</div>"); // Cierra .container
+        out.println("</div>");
         out.println("</body>");
         out.println("</html>");
     }
@@ -94,11 +94,9 @@ public class ServletMayor_Menor extends HttpServlet {
             int[] secuencia_numeros = new int[listado.length];
 
             for(int i = 0; i < listado.length; ++i) {
-                // Limpiar espacios antes de parsear
                 secuencia_numeros[i] = Integer.parseInt(listado[i].trim());
             }
 
-            // --- LÓGICA DE FRECUENCIA ---
             int masFrecuente = 0;
             int frecuencia_maxima = 0;
 
@@ -116,11 +114,9 @@ public class ServletMayor_Menor extends HttpServlet {
                     frecuencia_maxima = contador_frecuencia;
                 }
             }
-            // --- FIN LÓGICA DE FRECUENCIA ---
 
             generarHtmlHeader(out, "Resultado del Ejercicio: Valor más Frecuente");
 
-            // Generar la tabla con los resultados del GET
             out.println("        <table>");
             out.println("            <tr><th>Datos de Entrada</th><th>N. más Frecuente</th></tr>");
             out.println("            <tr>");
@@ -137,6 +133,5 @@ public class ServletMayor_Menor extends HttpServlet {
     }
 
     public void destroy() {
-        // Limpieza, si es necesaria
     }
 }
