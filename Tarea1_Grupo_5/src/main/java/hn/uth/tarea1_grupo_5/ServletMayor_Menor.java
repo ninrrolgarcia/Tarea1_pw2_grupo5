@@ -32,11 +32,10 @@ public class ServletMayor_Menor extends HttpServlet {
         out.println("        <h2>" + titulo + "</h2>");
         out.println("<div class='integrantes'>");
         out.println("<h2>Integrantes:</h2>");
-        out.println("<p>Emely Flores - 2024100609--</p>");
+        out.println("<p>Emely Julianna Flores López - 202410060969</p>");
         out.println("<p>Andre Nicolle Bocanegra Diaz - 202410061003</p>");
         out.println("</div>");
     }
-
 
     private void generarHtmlFooter(PrintWriter out) {
         out.println("    </div>");

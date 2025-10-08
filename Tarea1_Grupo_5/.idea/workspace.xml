@@ -9,12 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6acb8ebc-ce3e-40a0-b183-726bba179d6b" name="Changes" comment="Unificacion del proyecto y arreglos de multiples cosas, proyecto casi terminado">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/estilo_binario.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/estilo_hipotenusa.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/formulario_binario.html" afterDir="false" />
+    <list default="true" id="6acb8ebc-ce3e-40a0-b183-726bba179d6b" name="Changes" comment="Proyecto ya completo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hn/uth/tarea1_grupo_5/ServletBinarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hn/uth/tarea1_grupo_5/ServletBinarios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hn/uth/tarea1_grupo_5/ServletHipotenusa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hn/uth/tarea1_grupo_5/ServletHipotenusa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hn/uth/tarea1_grupo_5/ServletMayor_Menor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hn/uth/tarea1_grupo_5/ServletMayor_Menor.java" afterDir="false" />
     </list>
@@ -214,7 +210,7 @@
       <workItem from="1759726113472" duration="5458000" />
       <workItem from="1759803906541" duration="4713000" />
       <workItem from="1759809176984" duration="12565000" />
-      <workItem from="1759887724453" duration="3978000" />
+      <workItem from="1759887724453" duration="6875000" />
     </task>
     <task id="LOCAL-00001" summary="Cambios y añadiduras de los archivos necesarios de la tarea">
       <option name="closed" value="true" />
@@ -232,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759821786180</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Proyecto ya completo">
+      <option name="closed" value="true" />
+      <created>1759891751441</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759891751441</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +245,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cambios y añadiduras de los archivos necesarios de la tarea" />
     <MESSAGE value="Unificacion del proyecto y arreglos de multiples cosas, proyecto casi terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unificacion del proyecto y arreglos de multiples cosas, proyecto casi terminado" />
+    <MESSAGE value="Proyecto ya completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proyecto ya completo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

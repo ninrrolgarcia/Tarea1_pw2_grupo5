@@ -70,7 +70,7 @@ public class ServletHipotenusa extends HttpServlet {
         out.println("<div class='integrantes'>");
         out.println("<h2>Integrantes:</h2>");
         out.println("<p>Ninrrol Edgardo Garcia - 202310080085</p>");
-        out.println("<p>Wilmer Orlando Murillo - 202020040016</p>");
+        out.println("<p>Wilmer Orlando Murillo - 202020040056</p>");
         out.println("</div>");
 
         if (!resultadoHTML.isEmpty()) {
