@@ -1,0 +1,296 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff1c1c, #ff5c5c);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    background-color: #fff;
+    padding: 50px 40px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    text-align: center;
+    width: 350px;
+}
+
+.logo {
+    width: 180px;
+    height: 180px;
+    object-fit: contain; /* muestra la imagen completa */
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ff1c1c;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff1c1c;
+    color: #fff;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #e60000;
+    transform: translateY(-2px);
+}
+
+.pin-input {
+    width: 220px;
+    padding: 15px;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #ff1c1c;
+    margin-bottom: 20px;
+    letter-spacing: 8px;
+    background-color: #f8f8f8;
+}
+
+.pin-container {
+    padding: 40px 30px;
+}
+
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(3, 70px);
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.teclado button {
+    padding: 18px;
+    font-size: 20px;
+    border-radius: 12px;
+    border: none;
+    background-color: #ff1c1c;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.teclado button:hover {
+    background-color: #e60000;
+    transform: translateY(-2px);
+}
+
+.menu-botones {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.menu-btn {
+    display: block;
+    background-color: #ff1c1c;
+    color: #fff;
+    padding: 18px 0;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.menu-btn:hover {
+    background-color: #e60000;
+    transform: translateY(-2px);
+}
+
+.retiro-container {
+    padding: 40px 30px;
+}
+
+.monto-input {
+    width: 200px;
+    padding: 15px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #ff1c1c;
+    margin-bottom: 25px;
+    background-color: #f8f8f8;
+}
+
+.botones-rapidos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.botones-rapidos button {
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: none;
+    background-color: #ff1c1c;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.botones-rapidos button:hover {
+    background-color: #e60000;
+    transform: translateY(-2px);
+}
+
+.retiro-exitoso-container {
+    padding: 40px 30px;
+}
+
+.detalles {
+    text-align: left;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.detalles p {
+    font-size: 18px;
+    color: #333;
+    margin: 8px 0;
+}
+
+.deposito-container {
+    padding: 40px 30px;
+}
+
+.deposito-exitoso-container {
+    padding: 40px 30px;
+}
+
+.detalles {
+    text-align: left;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.detalles p {
+    font-size: 18px;
+    color: #333;
+    margin: 8px 0;
+}
+
+.pagos-container {
+    padding: 40px 30px;
+}
+
+.servicio-select {
+    width: 260px;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: 2px solid #ff1c1c;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.servicio-select option {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.pago-exitoso-container {
+    padding: 40px 30px;
+}
+
+.detalles {
+    text-align: left;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.detalles p {
+    font-size: 18px;
+    color: #333;
+    margin: 8px 0;
+}
+
+.transacciones-container .btn {
+    margin-top: 30px;
+}
+
+.pin-input {
+    width: 200px;
+    padding: 12px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #ff1c1c;
+    margin-bottom: 20px;
+    letter-spacing: normal;
+}
+
+.detalles {
+    text-align: left;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.detalles p, .detalles li {
+    font-size: 18px;
+    color: #333;
+    margin: 8px 0;
+}
+
+.integrantes-container .btn {
+    margin-top: 30px;
+}
+
+.integrante {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+}
+
+.integrante span:last-child {
+    margin-left: 20px;
+}
+
+
