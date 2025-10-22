@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      lang="es">
+
+<ui:composition template="template.xhtml">
+
+    <ui:define name="title">Menú Principal</ui:define>
+
+    <ui:define name="content">
+
+        <div class="container">
+
+            <h1><h:outputText value="Menú Principal" /></h1>
+
+            <div class="menu-botones">
+
+                <h:button outcome="Integrantes" value="Integrantes" styleClass="menu-btn" />
+                <h:button outcome="retiro" value="Retiro" styleClass="menu-btn" />
+                <h:button outcome="Deposito" value="Depósito" styleClass="menu-btn" />
+                <h:button outcome="PagosDeServicios" value="Pagos de Servicios" styleClass="menu-btn" />
+                <h:button outcome="OtrasTransacciones" value="Otras Transacciones" styleClass="menu-btn" />
+
+            </div>
+        </div>
+
+    </ui:define>
+</ui:composition>
+</html>

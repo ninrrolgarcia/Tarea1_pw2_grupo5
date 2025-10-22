@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      lang="es">
+
+<ui:composition template="template.xhtml">
+
+    <ui:define name="title">Integrantes del Grupo</ui:define>
+
+    <ui:define name="content">
+
+        <div class="container integrantes-container">
+
+            <h1><h:outputText value="Información del Grupo" /></h1>
+
+            <p><strong>Clase:</strong> <h:outputText value="Programación Web 2" /></p>
+            <p><strong>Catedrático:</strong> <h:outputText value="KENNY JOSEPH COOPER ALEMAN" /></p>
+
+            <div class="lista-integrantes">
+                <div class="integrante">
+                    <span><h:outputText value="Emely Julianna Flores Lopez" /></span>
+                    <span><h:outputText value="202410060969" /></span>
+                </div>
+                <div class="integrante">
+                    <span><h:outputText value="Andre Nicolle Bocanegra Diaz" /></span>
+                    <span><h:outputText value="202410061003" /></span>
+                </div>
+                <div class="integrante">
+                    <span><h:outputText value="Ninrrol Edgardo Garcia" /></span>
+                    <span><h:outputText value="202310080085" /></span>
+                </div>
+                <div class="integrante">
+                    <span><h:outputText value="Wilmer Orlando Murillo" /></span>
+                    <span><h:outputText value="202020040056" /></span>
+                </div>
+                <div class="integrante">
+                    <span><h:outputText value="Javier Alberto Espinoza" /></span>
+                    <span><h:outputText value="201610010339" /></span>
+                </div>
+                <div class="integrante">
+                    <span><h:outputText value="Levith Alexander Silva" /></span>
+                    <span><h:outputText value="202030110007" /></span>
+                </div>
+            </div>
+
+            <h:button outcome="menu" value="Volver al Menú" styleClass="btn" />
+
+        </div>
+
+    </ui:define>
+</ui:composition>
+</html>
